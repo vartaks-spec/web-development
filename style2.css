@@ -1,0 +1,154 @@
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #000000;
+    text-align:center;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    color: white;
+    font-size: large;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    border-bottom: 3px solid #fc9905;
+    color: #c1dbdf;
+  }
+  
+  /* Style the tab content */   
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+  .icon {
+    background: white;
+    color:rgb(253, 250, 250);
+  }
+  .p1{
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+  }
+  .p2{
+    text-align: center;
+    color:rgb(151, 150, 150);
+    font-size: large;
+    
+  }
+
+
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .monitor {
+    background-color:rgb(59, 176, 223);
+    margin:10 px;
+    padding: 20px;
+    border-radius: 10px
+  }
+  .onsite {
+    background-color: yellow;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px
+  }
+
+  .MYO {
+    background-color: red;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px
+  }
+
+  .shop {
+    background-color: green;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px
+  }
+  #img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .grid-container {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    grid-template-columns: 300px 350px 300px;
+    padding: 10px;
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    align-content: center;
+}
+  
+.grid-container > div {
+  background-color: #d4d3d3;
+  padding: 20px;
+  border-radius: 10px
+  
+}
+#mydiv a
+{
+    font-size:larger;
+    font-weight: bolder;
+    color: rgb(75, 194, 64);
+}
+footer {
+  display: block;
+}
+.Socials{
+  height: 100px;
+  background-color: indigo;
+  line-height: 100px;
+  margin: auto;
+  text-align: center;
+  padding: 50 px;
+  color: white;
+}
+
+.fa-facebook {
+  color: white;
+}
+.fa-twitter {
+  color: white;
+}
+#foot a {margin-left: 20px;}
+
+.information{
+  background-color: rgb(49, 40, 49);
+  color:white;
+}
+
+#info table{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+}
+#info th, td{
+  padding: 10px;
+}
+
+.copyright{
+  background-color: rgb(25, 25, 26);
+  color:white;
+  text-align: center;
+}
